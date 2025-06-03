@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang ="pt-br">
+
+</html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario para se Cadastrar</title>
+    <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #67eba9;
+      padding: 40px;
+    }
+  </style>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <br>
+    <form action="GH_J_3.html" method="GET">
+      Nome : <input type="text" placeholder=" Digite seu nome" required><br><br>
+      
+      Peso : <input type="number" placeholder=" Digite seu peso" required><br><br>
+      
+      Idade : <input type="number" placeholder=" Digite sua idade" required><br><br>
+      
+      Altura : <input type="number" placeholder=" Digite sua altura"><br><br>
+      
+      CPF : <input type="number" placeholder=" Digite seu CPF"><br><br>
+      
+      CELULAR : <input type="number" placeholder=" Digite seu Numero de celular"><br><br>
+      
+      Enderenço : <input type="text" placeholder=" Digite seu enderenço" ><br><br>
+      
+      COR de pele : <input type="color"><br><br>
+      
+      <input type="submit"><input type="reset"value="limpa formulario">
+    </form>
+       
+      <br>
+    <a href="index.html"> Retornar e entrar no meu Email </a>
+</body>
